@@ -1,0 +1,32 @@
+{
+    "name": "avdevs/opentok-laravel-5.6",
+    "description": "A laravel 5.6 bundle for the OpenTok PHP SDK",
+    "keywords": ["opentok", "streaming", "video streaming"],
+    "homepage": "https://github.com/avdevs/opentok-laravel-5.6",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bhavin Solanki",
+            "email": "bhavin@avdevs.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Hitlabs/OpenTok-PHP-SDK"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "illuminate/support": "5.5.x|5.6.x",
+        "opentok/opentok": "4.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Avdevs\\OpentokLaravel\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
+ 
